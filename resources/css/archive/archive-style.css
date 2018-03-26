@@ -63,6 +63,10 @@ nav span {
   padding: 20px 10px;
 }
 
+div {
+  display: block;
+}
+
 body {
   margin: 0;
 }
@@ -99,16 +103,12 @@ h2 {
   width: 240px;
 }
 
-/* News Bites */
+.image-content {
 
-news-bites {
-  font-size: 16px;
-  font-weight: bold;
 }
 
-bite span {
-background-color: WhiteSmoke;
-font-family: Verdana;
-font-size: 12px;
-color: DimGray;
+/* to be checked */
+.stories .headlines .images {
+  display: flex;
+  text-align: left;
 }
